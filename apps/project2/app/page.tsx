@@ -1,9 +1,10 @@
 import Test from "../../../lib/Test";
 
 export default function Home() {
+  Test(2)
   return (
     <>
-      <Test />;<div>project 2</div>
+      <div>project 2</div>
     </>
   );
 }
